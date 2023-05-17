@@ -1,0 +1,49 @@
+.banner {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    font-family: 'Quicksand' monospace;
+    background: url("https://a0.muscache.com/im/pictures/ffc515cb-c920-414d-be50-d37ad22182d8.jpg?im_q=highq&amp;im_w=720")
+}
+
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff385c !important;
+}
+
+.banner__info > button {
+    background-color: #ff385c;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: #dddddd;
+    color: #ff385c;
+  }
+  
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
